@@ -1,0 +1,17 @@
+Tipo de Ocupación,Mayor a 30,Volumen de Compras,Mayoria de elementos comprados,Campaña
+Empleado,Si,Alto,Ferretería,Salud
+Independiente,Si,Medio,Vesturario,Hogar
+Independiente,No,Alto,Vesturario,Viajes
+Independiente,Si,Alto,Mercado,Hogar
+Empleado,Si,Bajo,Mercado,Viajes
+Empleado,Si,Medio,Vesturario,Salud
+Empleado,No,Alto,Vesturario,Viajes
+Empleado,Si,Alto,Mercado,Hogar
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+Empleado,Si,Medio,Mercado,Hogar
+Independiente,Si,Alto,Vesturario,Viajes
