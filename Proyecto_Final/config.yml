@@ -1,0 +1,5 @@
+EMAIL:
+  username: crmprueba111@gmail.com
+  password: Unimag2019
+  port: 465
+  smtp_server: smtp.gmail.com

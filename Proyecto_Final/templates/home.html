@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <p class="lead">Diligencia el siguiente formulario para verificar tú tipo de tarjeta de crédito</p>
+    <hr class="my-4">
+      <form action="/usuario" method="post">
+        <input type="text" class="form-control form-control-lg" placeholder="Su nombre completo" name="nombre" required>
+        <br>
+       <input type="email" class="form-control form-control-lg" placeholder="Correo Electrónico" name="correo" required>
+        <br>
+       <select class="custom-select custom-select-lg mb-3" name="ocupacion">
+         <option selected required>Ocupación</option>
+         <option value="0">Empleado</option>
+         <option value="1">Independiente</option>
+       </select>
+       
+       <select class="custom-select custom-select-lg mb-3" name="mayor">
+         <option selected required>¿Tiene más de 30 años?</option>
+         <option value="0">No</option>
+         <option value="1">Si</option>
+       </select>
+   
+       <select class="custom-select custom-select-lg mb-3" name="compras">
+         <option selected required>Volumen de compras al mes</option>
+         <option value="0">Alto</option>
+         <option value="1">Bajo</option>
+         <option value="2">MEdio</option>
+       </select>
+   
+       <select class="custom-select custom-select-lg mb-3" name="productos">
+         <option selected required>De los siguientes productos, ¿Cual compra con más preferencia?</option>
+         <option value="0">Ferretería</option>
+         <option value="1">Mercado</option>
+         <option value="2">Vesturario</option>
+       </select>
+
+        <input class="btn btn-primary btn-lg" href="#" role="button" type="submit" value="Consultar" />
+      </form>
+  </div>
+
+  
+{% endblock%}
